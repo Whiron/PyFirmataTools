@@ -1,0 +1,7 @@
+ARDUINO part
+
+>Serial Communication:
+	-Buttons are used as sensors in virtual designs.
+	-
+	
+94088 71617

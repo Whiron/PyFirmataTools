@@ -1,0 +1,10 @@
+>aurdino:
+	-clone board 300-600
+	-real board 1400
+
+>Procedure:
+	-Device knowledge
+	-Defination
+	-Interfacing
+	-ALgorithm/development flowchart
+	-Coding

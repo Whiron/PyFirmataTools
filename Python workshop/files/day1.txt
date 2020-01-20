@@ -1,0 +1,103 @@
+Notes..?? 
+
+>C language Hello World..
+
+	#include<stdio.h>	
+
+	void main()
+	{
+		printf("Hello World");
+		getch();
+	}
+
+
+>PYTHON IDE
+	-Pydev
+	-comodo
+	-pycharm (GUI based App)
+	-gedit
+	-idle
+
+>Datatype
+
+	-Loosely typed Language
+	-3 Types of datatype
+		=Number
+		=String
+		=Boolean (True or False)
+	-Variabe only referes to the value.(Reference Semantic)
+	-Garbage Collector:
+		=Deletes Object or links if not used for a longer span of time.
+	-'+' concatination operator.
+	-':' start of new block
+	-'string' and "string" both are used for String.('string'=="string" is True)
+	-'\' escaping charecter.
+	-len , <string_object>.upper(), <string_object>.lower(),str() Methods.
+
+>Input:
+	-<var>=raw_input("<string>")
+	
+>Import:
+	- from <package> import <file>
+	-<var>=datetime.new()
+	-a=datetime.now()
+	 b=a.day
+	 a.month
+	 a.hour
+	 a.year
+	 a.second are all variables of 'a' obj.
+	 
+>if elif else
+	-if(<condition>):
+		#block
+	 elif(<conditon>):
+		#block
+	else:
+		#block
+
+>operator precedence
+	-not->and->or.
+
+>Math Library:
+		-import math			#Universal Import
+		 math.sqrt(<variable>)
+		-from math import *		#General Import
+		 math.sqrt(<variable>)
+		-from math import sqrt	#Functional import
+		 sqrt(<variable>)
+		 
+>function:
+	-def <function_name>():
+		#function body
+		return <statement>
+	-max(<value>)
+	-min(<value>)
+	-abs(<value>)
+	
+	
+>list
+	-<variable>=[<values>]
+	-<variable>={<key1>:<value1>,<key2>:<value2>,<key3>:<value3>}
+	-<variable>[<index>]
+	-<variable>.append() 					#Add element at end
+	-<variable>.insert(<index>,<value>)  	#At specific index
+	-<variable>[<start_index>,<end_index>]	#Slice
+	-<variable>.sort()						#sort (bubble)
+	-<variable>.pop(<index>)				#At Specific index
+	-<variable>.remove(<value>)				#Of specific Value
+	-<variable>.
+	-List is mutable and String is immutable.
+	-Eg:
+		x=[1,2,3]
+		y=x
+		x.append(4)
+		print y	#1,2,3,4
+		
+		y=x+"5"
+		print x	#1,2,3,4
+		
+
+		
+HW:
+aurdino
+FTDIchip as per OS
